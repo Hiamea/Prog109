@@ -1,0 +1,42 @@
+
+body {
+    background-color: blueviolet;
+}
+p{
+    font-family:Arial;
+}
+
+h1 {
+    color: brown;
+    font-size: 25px;
+}
+h2 {
+    color: aquamarine;
+    font-size: 20px;
+}
+header p {
+    font-weight: bold;
+    font-style: italic;
+    color:blue
+   
+}
+
+.red-heading{
+    color:red;
+}
+
+footer{
+    background-color: black;
+    border:black solid thin;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+  figure.left{
+      float: left;
+
+  }  
+
+p {
+    color: firebrick;
+    font-family: fantasy;
+}
