@@ -42,6 +42,32 @@ nav li {
     display: inline;
     padding: 8px;    
 }
+
+
+
+
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+}
+
+.foo{
+    border-width: 10px;
+    border-color: blue;
+    border-style: dotted;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}  
+
+.btn-margin-padding{
+    margin:25px
+}
+
 main {
     background-color:goldenrod;
 }
@@ -50,8 +76,13 @@ main {
 .red-heading{
     color:red;
 }
-
+.blue-text{
+    color:goldenrod;
 }
+#new-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 footer{
     background-color: black;
@@ -68,3 +99,10 @@ p {
     color: firebrick;
     font-family: fantasy;
 }
+
+
+
+
+
+
+

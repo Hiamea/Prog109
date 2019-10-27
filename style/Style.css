@@ -1,6 +1,11 @@
 
 body {
     background-color: blueviolet;
+    max-width: 500px;
+    margin: auto;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -11,6 +16,8 @@ h2 {
     color: aquamarine;
     font-size: 20px;
 }
+
+
 
 header p {
     font-weight: bold;
@@ -35,9 +42,94 @@ nav li {
     display: inline;
     padding: 8px;    
 }
-            
+     
 
-p {
-    color: firebrick;
-    font-family: fantasy;
+
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+}
+
+.foo{
+    border-width: 10px;
+    border-color: blue;
+    border-style: dotted;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}  
+
+.btn-margin-padding{
+    margin:25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 15px green ;
+    border-style: ridge;
+
+
+}
+
+.btn-margin-padding:active{
+    background-color: brown;
+}
+
+#button-wrapper{
+    background-color: blue;
+    display:minline-block;
+    border:thin black solid;
+}
+
+
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+   
+
+
+
+
+main{
+    background-color: greenyellow;
+}
+.red-heading{
+    color: hotpink;
+
+
+
+}
+.blue-text{
+    color: khaki;
+}
+#new-font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+footer{
+    background-color: lightgreen;
+    border:black solid thin;
+    padding-left; 5px;
+    border-radius: 8px;
+}
+
+figure.right{
+    float: right;
+}
+
+
+section.clear {
+    clear:both;
+}
 }
