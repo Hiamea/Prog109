@@ -5,34 +5,32 @@ window.onload = () => {
     const functionCallsAction = document.getElementById('functionCallsAction');
 
 
+    functionCallsAction.onclick = function () {
+        simpleFunction();
+    }
+
+
 function simpleFunction() {
     console.log("functions should consist of ststments designed to perform a single task.");
     simpleFunctionDisplay.textContent = "simple";
 }
 
-simpleFunction();
 
-}
+
 function functionParameters(value){
     console.log(value);
 }
 
 
-function functionParameters(){
-    return "Many functions return values.";
-   
+function functionReturn(addResult) {
+    
+    return "The add function returned " + addResult;   
 }
 
 function add(a, b) {
-    return a + b;
+    const addResult = a + b;
+    console.log('Inside add' , addResult);
+    return addResult;
 }
 
 
-functionParameters("Many functions take parameters.");
-
-
-const returnValue = functionReturn();
-console.log (returnValue);
-
-const result = add(2, 3);
-console.log(result);
