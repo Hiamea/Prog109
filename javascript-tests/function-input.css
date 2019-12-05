@@ -1,0 +1,30 @@
+
+body {
+    background-color:gainsboro;
+    max-width: 500px;
+    margin: auto;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+button {
+    float: left;
+    width: 150px;
+}
+
+input {
+    float: left;
+    width: 45px;
+}
+
+div {
+    clear: both;
+}
