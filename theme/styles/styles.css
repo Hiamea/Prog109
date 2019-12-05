@@ -133,3 +133,12 @@ section.clear {
     clear:both;
 }
 }
+
+
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}  
