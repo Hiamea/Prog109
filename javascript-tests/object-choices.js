@@ -15,7 +15,7 @@ window.onload = () => {
         sayName: function () {
            const fullName =this.firstName + "" + this.lastName;
         console.log (fullName);
-        simpleObjectDisplay.textContent = 'fullName';
+        simpleObjectDisplay.textContent = 'Hiame Mohamed';
 
             
         }
